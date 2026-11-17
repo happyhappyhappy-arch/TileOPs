@@ -1,0 +1,27 @@
+{
+  "candidate_commit": "b691bc4f103d81fb5ab47d7ca42618232736b5dd",
+  "tileops_measured_base": "e7b1e901d22379ebd226299c597f01c204c5622d",
+  "tilelang_commit": "d50de2d3116ea84be189c581348c29d7c2483c3e",
+  "cann": "9.3.0",
+  "physical_device": "Ascend950DT_9592: 36 Cube / 72 Vector",
+  "runtime_limit": "32 Cube / 64 Vector",
+  "cases": 12,
+  "profiles": 360,
+  "byte_identical_raw_files": 1800,
+  "measured_adapter_sha256": {
+    "baseline.py": "b8f7552e1d475d0b31cde067588d911ae4fb93e6239606fa3eff021cc053c43d",
+    "run_moe.py": "c64d12fc190db3a83fc124ba44dbd26ed2277b9985f175f31d8290a39b2962a1",
+    "hardware_timer.py": "ba57aa2ec7c8989e045777b89064214ef784647ee3d19b15c72c5e3f86a68021",
+    "profile_parser.py": "9e83133a321b2038823b4ae912b84c3e58f0cd9f105622758f9577d234c641eb",
+    "capture_support.py": "ef4b54c0caa0f206a0eb8f72bede17e6cf1f50cd0a9c06bc47e3b609a88a9006",
+    "guard.py": "7ac49ddfd6225e0684a921954b9e377aaa4eb76bc724d1616851650ba1e63412"
+  },
+  "original_returned_archive_sha256": "f6988afacd93532ad098858bf43710b5ece96d6ecce995d1f8fd234e13922084",
+  "redactions": [
+    "Installation paths in result identity replaced by placeholders; sample raw_path made relative.",
+    "Device info reduced to clock/platform/CANN/driver/device fields.",
+    "Guard receipts retain terminal status, validity and times, omit owner/process/command/host identity.",
+    "Unused profiler files and host environment metadata omitted. Timing/name raw record bytes unchanged."
+  ],
+  "qualification": "Complete same-contract comparison in the stated self-test environment; not qualified for cross-environment mixing with the CANN 9.2 formal candidate measurements."
+}

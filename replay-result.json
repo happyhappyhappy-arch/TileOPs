@@ -1,0 +1,92 @@
+{
+  "replayed_profiles": 360,
+  "cases": 12,
+  "byte_identical_raw_files": 1800,
+  "guard_receipts": 4,
+  "rows": [
+    {
+      "case": "kimi-k2-t1",
+      "tilelang_us": 51.172133333333335,
+      "baseline_us": 117.1312,
+      "baseline_aicpu_us": 44.915733333333336,
+      "ratio": 2.2889645666521625
+    },
+    {
+      "case": "kimi-k2-t32",
+      "tilelang_us": 71.00853333333333,
+      "baseline_us": 117.3353,
+      "baseline_aicpu_us": 44.15043333333333,
+      "ratio": 1.652411259491817
+    },
+    {
+      "case": "kimi-k2-t512",
+      "tilelang_us": 43.105533333333334,
+      "baseline_us": 139.64086666666665,
+      "baseline_aicpu_us": 45.99706666666667,
+      "ratio": 3.239511400701843
+    },
+    {
+      "case": "kimi-k2-t4096",
+      "tilelang_us": 62.14046666666667,
+      "baseline_us": 202.2791,
+      "baseline_aicpu_us": 67.32396666666666,
+      "ratio": 3.255191195860561
+    },
+    {
+      "case": "ds-v3-t1",
+      "tilelang_us": 34.8882,
+      "baseline_us": 109.46573333333333,
+      "baseline_aicpu_us": 40.85693333333333,
+      "ratio": 3.1376148191461106
+    },
+    {
+      "case": "ds-v3-t32",
+      "tilelang_us": 54.02693333333333,
+      "baseline_us": 109.46926666666667,
+      "baseline_aicpu_us": 40.2826,
+      "ratio": 2.0261980444321597
+    },
+    {
+      "case": "ds-v3-t512",
+      "tilelang_us": 36.9972,
+      "baseline_us": 132.6878,
+      "baseline_aicpu_us": 42.56,
+      "ratio": 3.5864281621311886
+    },
+    {
+      "case": "ds-v3-t4096",
+      "tilelang_us": 55.5158,
+      "baseline_us": 187.89763333333335,
+      "baseline_aicpu_us": 55.9869,
+      "ratio": 3.3845794050222344
+    },
+    {
+      "case": "qwen3-235b-t1",
+      "tilelang_us": 19.1472,
+      "baseline_us": 102.98753333333333,
+      "baseline_aicpu_us": 37.06653333333333,
+      "ratio": 5.378725522965934
+    },
+    {
+      "case": "qwen3-235b-t32",
+      "tilelang_us": 35.84446666666667,
+      "baseline_us": 104.72273333333334,
+      "baseline_aicpu_us": 36.1056,
+      "ratio": 2.9215871533867617
+    },
+    {
+      "case": "qwen3-235b-t512",
+      "tilelang_us": 33.56713333333333,
+      "baseline_us": 127.10923333333334,
+      "baseline_aicpu_us": 37.73716666666667,
+      "ratio": 3.786716967192115
+    },
+    {
+      "case": "qwen3-235b-t4096",
+      "tilelang_us": 48.30806666666667,
+      "baseline_us": 180.46246666666667,
+      "baseline_aicpu_us": 49.13073333333333,
+      "ratio": 3.735659054871443
+    }
+  ]
+}
